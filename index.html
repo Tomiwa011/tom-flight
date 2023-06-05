@@ -19,14 +19,14 @@
           <ul class="pl-0 col-md-12 contact">
             <li class="mb-3 wid-20 py-4">
               <a href="#" class="pl-2 py-4">
-                <span class="mr-5"> FIND US ON FACEBOOK</span>
+                <span class="mr-5" id="find2"> FIND US ON FACEBOOK</span>
                 <span class="py-3 px-0 ml-2" id="icon">
                   <i class="fa-brands fa-facebook-f px-4"></i> </span
               ></a>
             </li>
             <li class="mb-3 wid-20 py-4">
               <a href="#" class="pl-2 py-4">
-                <span class="mr-5">OUR YOUTUBE CHANNEL </span>
+                <span class="mr-5" id="find3">OUR YOUTUBE CHANNEL </span>
                 <span class="py-3 ml-2 px-0 tc" id="icon">
                   <i
                     class="fa-brands fa-youtube px-3 pl-2"
@@ -37,7 +37,7 @@
             </li>
             <li class="wid-20 py-4">
               <a href="#" class="pl-2 py-4">
-                <span class="mr-5">FOLLOW OUR INSTAGRAM </span>
+                <span class="mr-5" id="find4">FOLLOW OUR INSTAGRAM </span>
                 <span class="py-3 px-0" id="icon">
                   <i class="fa-brands fa-instagram px-4"></i
                 ></span>
@@ -64,16 +64,16 @@
                     <br />
                     <select name="from" id="from" class="bg-light p-2 mb-4">
                       <option value="placeholder">Select a location...</option>
-                      <option value="cambodia">Cambodi</option>
-                      <option value="hongkong">Hong Kong</option>
-                      <option value="india">India</option>
-                      <option value="japan">Japan</option>
                       <option value="korea">Korea</option>
+                      <option value="vietnam">Vietnam</option>
+                      <option value="india">India</option>
                       <option value="laos">Laos</option>
+                      <option value="cambodi">Cambodi</option>
+                      <option value="japan">Japan</option>
                       <option value="myanmar">Mayanmar</option>
                       <option value="singapore">Singapore</option>
                       <option value="thailand">Thailand</option>
-                      <option value="vietnam">Vietnam</option>
+                      <option value="hong kong">Hong Kong</option>
                     </select>
                     <br />
                     <label for="dept-date">DEPARTURE DATE:</label>
@@ -90,16 +90,16 @@
                     <br />
                     <select name="to" id="to" class="bg-light p-2 mb-4">
                       <option value="placeholder">Select a location...</option>
-                      <option value="cambodia">Cambodi</option>
-                      <option value="hongkong">Hong Kong</option>
                       <option value="india">India</option>
+                      <option value="hongkong">Hong Kong</option>
+                      <option value="cambodi">Cambodi</option>
                       <option value="japan">Japan</option>
                       <option value="korea">Korea</option>
-                      <option value="laos">Laos</option>
-                      <option value="myanmar">Mayanmar</option>
-                      <option value="singapore">Singapore</option>
-                      <option value="thailand">Thailand</option>
                       <option value="vietnam">Vietnam</option>
+                      <option value="thailand">Thailand</option>
+                      <option value="singapore">Singapore</option>
+                      <option value="myanmar">Myanmar</option>
+                      <option value="laos">Laos</option>
                     </select>
                     <br />
 
@@ -127,7 +127,7 @@
         </div>
       </div>
 
-      <div class="container-fluid p-5 weather text-center">
+      <div class="container-fluid p-5 weather text-center" id="social2">
         <h3 class="title mb-5 text-center">
           CHECK WEATHER FOR THE NEXT 5 DAYS
         </h3>
@@ -751,7 +751,7 @@
           <ul class="nav nav-tabs col-md-4" id="myTab" role="tablist">
             <li class="nav-item mb-3">
               <a
-                class="nav-link active text-white p-2"
+                class="nav-link active text-white"
                 id="living-tab"
                 data-toggle="tab"
                 href="#living"
@@ -764,7 +764,7 @@
             </li>
             <li class="nav-item mb-3">
               <a
-                class="nav-link text-white p-2"
+                class="nav-link text-white"
                 id="suit-tab"
                 data-toggle="tab"
                 href="#suit"
@@ -777,7 +777,7 @@
             </li>
             <li class="nav-item mb-3">
               <a
-                class="nav-link text-white p-2"
+                class="nav-link text-white"
                 id="pool-tab"
                 data-toggle="tab"
                 href="#pool"
@@ -790,7 +790,7 @@
             </li>
             <li class="nav-item mb-3">
               <a
-                class="nav-link text-white p-2"
+                class="nav-link text-white"
                 id="massage-tab"
                 data-toggle="tab"
                 href="#massage"
@@ -803,7 +803,7 @@
             </li>
             <li class="nav-item mb-3">
               <a
-                class="nav-link text-white p-2"
+                class="nav-link text-white"
                 id="fitness-tab"
                 data-toggle="tab"
                 href="#fitness"
@@ -816,7 +816,7 @@
             </li>
             <li class="nav-item mb-3">
               <a
-                class="nav-link text-white p-2"
+                class="nav-link text-white"
                 id="evening-tab"
                 data-toggle="tab"
                 href="#evening"
@@ -959,10 +959,10 @@
           </div>
         </div>
       </div>
-      <div class="text-center places c2 p-2 pt-5">
-        <h4 class="pb-5">MOST VISITED PLACES</h4>
-        <div id="carouselIdd " class="carousel slide ml " data-ride="carousel">
-          <!-- <ol class="carousel-indicators">
+      <div class="text-center places c2 p-2 pt-5" id="work1">
+        <h4 class="pb-5" id="work2">MOST VISITED PLACES</h4>
+        <div id="carouselIdd" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators" id="work3">
             <li
               data-target="#carouselIdd"
               data-slide-to="0"
@@ -970,7 +970,7 @@
             ></li>
             <li data-target="#carouselIdd" data-slide-to="1"></li>
             <li data-target="#carouselIdd" data-slide-to="2"></li>
-          </ol> -->
+          </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <div class="row">
@@ -980,7 +980,7 @@
                   </div>
                   <div class="card-body">
                     <h5>River Views</h5>
-                    <p>New York</p>
+                    <p>NEW YORK</p>
                   </div>
                 </div>
                 <div class="card shadow bg-light col-md-2 p-0 ml-3">
@@ -1020,7 +1020,7 @@
                   </div>
                   <div class="card-body">
                     <h5>River Views</h5>
-                    <p>New York</p>
+                    <p>NEW YORK</p>
                   </div>
                 </div>
                 <div class="card shadow bg-light col-md-2 p-0 ml-3">
@@ -1060,7 +1060,7 @@
                   </div>
                   <div class="card-body">
                     <h5>Lorem, ipsum dolor.</h5>
-                    <p>New York</p>
+                    <p>NEW YORK</p>
                   </div>
                 </div>
                 <div class="card shadow bg-light col-md-2 p-0 ml-3">
@@ -1093,7 +1093,7 @@
               </div>
             </div>
           </div>
-          <!-- <a
+          <a
             class="carousel-control-prev"
             href="#carouselIdd"
             role="button"
@@ -1101,7 +1101,7 @@
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
-          </a> -->
+          </a>
           <a
             class="carousel-control-next"
             href="#carouselIdd"
@@ -1113,11 +1113,11 @@
           </a>
         </div>
       </div>
-      <footer class="text-center py-5 mt-5 text-white">
-        <a href="bootproject.html#top" class="btn btn-warning mb-5"
+      <footer class="text-center py-5 mt-5 text-white" id="footer">
+        <a href="#top" class="btn btn-warning mb-5"
           >Back to top</a
         >
-        <div class="social">
+        <div class="social" id="find6">
           <ul class="d-flex mx-auto">
             <li>
               <a href="#"
@@ -1148,9 +1148,9 @@
           </ul>
         </div>
 
-        <div>
+        <div class="copyright1">
           <p>
-            Copyright © suyash
+            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> suyash
             I Design: <a href="#" class="text-warning">suyash</a>
           </p>
         </div>

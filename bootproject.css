@@ -1,418 +1,454 @@
-.contain{
-    font-family: "Open Sans", arial, sans-serif;
-    overflow-x: hidden;
+.contain {
+  font-family: "Open Sans", arial, sans-serif;
+  overflow-x: hidden;
 }
-.top{
-    background-image: url(./images/banner-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.top {
+  background-image: url(./images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+#work2 {
+  margin-left: -27rem;
+}
+#work3 {
+  margin-left: -13rem;
+  margin-bottom: -2rem;
+}
+ul li {
+  list-style: none;
+}
+.top a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: fit-content;
+}
+
+#dark ul li a span {
+  font-weight: 500;
+}
+#dark #icon {
+  background-color: rgb(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#dark li:hover {
+  background-color: rgba(254, 219, 113, 0.5);
+}
+#dark h3 {
+  font-weight: 600;
+}
+#dark i {
+  font-size: 2.5rem;
+  /* background-color: red; */
+}
+.wid-20 {
+  height: 70px;
+  transition: 1s;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: relative;
+}
+#icon {
+  height: 100%;
+  width: 4.5rem;
+}
+.btn-warning {
+  background-color: rgb(255, 225, 101);
+}
+/* #work5:hover{
+    color: yellow;
+} */
+.top input {
+  border: none;
+}
+
+.top select {
+  border: none;
+  color: gray;
+}
+.top .card {
+  background-color: rgb(255, 255, 255, 0.95) !important;
+}
+.top #card-head {
+  font-weight: 700;
+}
+#dark .btn {
+  bottom: 0;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+#dark .btn i {
+  font-size: 1.4rem;
+}
+.tab .card-head + div {
+  background-color: rgb(223, 219, 219);
+  height: 2px;
+  width: 90%;
+  text-align: center;
+}
+.title {
+  font-weight: 800;
+}
+.weather #myTab {
+  height: 6rem;
+  background-color: rgb(65, 69, 71);
+}
+.weather #myTab li a {
+  height: 6rem;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.weather #myTab li {
+  width: 20%;
+}
+
+.weather #myTabContent {
+  background-image: url(./images/weather-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+.body p:nth-last-child(1) {
+  background-color: rgb(205, 206, 209, 0.5) !important;
+  padding: 2px;
+}
+.col-md-3 {
+  background-color: rgba(255, 255, 255, 0.35) !important;
+}
+.body {
+  font-weight: 600;
+  /* height: 5rem; */
+  width: 18rem;
+}
+#temp {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+.head p {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.card img {
+  width: 5rem;
+}
+.cards .card {
+  background-color: rgb(31, 54, 70) !important;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  transition: 1s;
+}
+.cards .card:hover {
+  background-color: rgb(245, 200, 36) !important;
+  color: black;
+  transition: 1s;
+}
+.cards i {
+  font-size: 3rem;
+  margin: 2rem;
+}
+.card {
+  opacity: 0.8;
+}
+.cards h4 {
+  font-weight: 700;
+}
+.hotel #myTab {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.hotel h4 {
+  font-weight: 700;
+}
+.hotel #myTab li {
+  width: 100%;
+  background-color: rgb(31, 54, 70);
+}
+.hotel #myTab li a {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.hotel #myTab li span {
+  position: absolute;
+  right: 2rem;
+  font-size: 1.5rem;
+}
+#active {
+  background-image: url(./images/suite-02.jpg);
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+#active div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 100%;
+  margin-top: 17rem;
+}
+.hotel .second {
+  background-image: url(./images/suite-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.hotel .carousel-item div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 100%;
+  margin-top: 17rem;
+}
+.hotel .third {
+  background-image: url(./images/suite-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+#pool {
+  background-image: url(./images/swiming-pool.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#pool div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+}
+#massage {
+  background-image: url(./images/massage-service.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+#massage div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+}
+#fitness {
+  background-image: url(./images/fitness-service.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+#fitness div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+}
+#evening {
+  background-image: url(./images/evening-event.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+#evening div {
+  background-color: rgb(31, 54, 70, 0.8);
+  color: white;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+}
+.hotel h5 {
+  font-weight: 700;
+}
+.places img {
+  width: 100%;
+}
+
+.places h4 {
+  font-weight: 700;
+}
+.carousel-indicators li {
+  background-color: rgb(255, 225, 101);
+}
+
+footer {
+  background-color: rgb(31, 54, 70);
+}
+.social ul {
+  width: 50rem;
+}
+.social ul li {
+  margin-left: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2rem;
+  color: white;
+  width: 6rem;
+  height: 6rem;
+  transition: 1s;
+}
+.social li:hover {
+  background-color: rgb(255, 225, 101);
+  transition: 1s;
+}
+.w-10 {
+  width: 10rem;
+  height: 10rem;
+}
+#work1 {
+  margin-left: 25rem;
+}
+
+@media (max-width: 600px) {
+  .weather #myTab {
     height: fit-content;
-}
-ul li{
-    list-style: none;
-}
-.top a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-#dark{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    height: fit-content;
-}
-
-#dark ul li a span{
-    font-weight: 500;
-}
-#dark #icon{
-    background-color: rgb(255,255,255,0.3);
-    box-sizing: border-box;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-#dark li:hover{
-    background-color: rgba(254, 219, 113, 0.5);
-}
-#dark h3{
-    font-weight: 600;
-}
-#dark i{
-    font-size: 2.5rem;
-    /* background-color: red; */
-}
-.wid-20{
-    height: 70px;
-    transition: 1s;
-    background-color: rgb(255,255,255,0.2);
-    position: relative;
-}
-#icon{
-    height: 100%;
-    width: 4.5rem;
-}
-.btn-warning{
-    background-color: rgb(255,225,101);
-}
-.top input{
-    border: none;
-}
-
-.top select{
-    border: none;
-    color: gray;
-}
-.top .card{
-    background-color: rgb(255,255,255,0.95) !important;
-}
-.top #card-head{
-    font-weight: 700;
-}
-#dark .btn{
-    bottom: 0;
-    font-weight: 700;
-    margin-top: 5rem;
-}
-#dark .btn i{
-    font-size: 1.4rem;
-}
- .tab .card-head + div{
-    background-color: rgb(223, 219, 219);
-    height: 2px;
-    width: 90%;
-    text-align: center;
-}
-.title{
-    font-weight: 800;
-}
-.weather #myTab{
-    height: 6rem;
-    background-color: rgb(65,69,71);
-   
-}
-.weather #myTab li a{
-    height: 6rem;
-    padding-top: 1.5rem;
-    font-weight: 700;
-    font-size: 1.2rem;
-    
-}
-.weather #myTab li{
-    width: 20%;
-}
-
-.weather #myTabContent{
-    background-image: url(./images/weather-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* height: 100vh; */
-    
-}
-.body p:nth-last-child(1){
-    background-color: rgb(205,206,209,0.5) !important;
-    padding: 2px;
-}
-.col-md-3{
-   background-color: rgba(255,255,255,0.35) !important;
-}
-.body{
-    font-weight: 600;
-    /* height: 5rem; */
-    width: 18rem;
-}
-#temp{
-    background-color: rgba(255,255,255,0.85) !important;
-}
-.head p{
-    font-weight: 600;
-    font-size: 1.8rem;
-   
-}
-.card img{
-    width: 5rem;
-}
-.cards .card{
-    background-color: rgb(31,54,70) !important;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    transition: 1s;
-}
-.cards .card:hover{
-    background-color: rgb(245, 200, 36) !important;
-    color: black;
-    transition: 1s;
-}
-.cards i{
-    font-size: 3rem;
-    margin: 2rem;
-}
-.cards h4{
-    font-weight: 700;
-}
-.hotel #myTab{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    
-}
-.hotel h4{
-    font-weight: 700;
-}
-.hotel #myTab li{
+  }
+  .weather #myTab li {
     width: 100%;
-    background-color:rgb(31,54,70) ;
-}
-.hotel #myTab li a{
-    font-size: 1.3rem;
-    font-weight: 700;
-}
-.hotel #myTab li span{
-    position: absolute;
-    right: 2rem;
-    font-size: 1.5rem;
-}
-#active{
-    background-image: url(./images/suite-02.jpg);
-    height: 100%;
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    text-align: left;
-   
-}
-#active div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 100%;
-    margin-top: 17rem;
-   
-}
-.hotel .second{
-    background-image: url(./images/suite-01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    
-}
-.hotel .carousel-item div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 100%;
-    margin-top: 17rem;
-}
-.hotel .third{
-    background-image: url(./images/suite-03.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-}
-#pool{
-    background-image: url(./images/swiming-pool.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-#pool div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 96%;
-    position: absolute;
-    bottom: 0;
-    
-}
-#massage{
-    background-image: url(./images/massage-service.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-}
-#massage div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 96%;
-    position: absolute;
-    bottom: 0;
-}
-#fitness{
-    background-image: url(./images/fitness-service.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-}
-#fitness div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 96%;
-    position: absolute;
-    bottom: 0;
-}
-#evening{
-    background-image: url(./images/evening-event.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-}
-#evening div{
-    background-color: rgb(31,54,70,0.8);
-    color: white;
-    width: 96%;
-    position: absolute;
-    bottom: 0;
-}
-.hotel h5{
-    font-weight: 700;
-}
-.places img{
-    width: 100%;
-}
-
-.places h4{
-    font-weight: 700;
-}
-.carousel-indicators li{
-    background-color: rgb(255,225,101);
-}
-
-footer{
-    background-color: rgb(31,54,70);
-}
-.social ul{
-    width: 50rem;
-}
-.social ul li{
-    margin-left: 2rem;
-    background-color: rgba(255,255,255,0.1);
-    font-size: 2rem;
-    color: white;
-    width: 6rem;
-    height: 6rem;
-   transition: 1s;
-}
-.social li:hover{
-    background-color: rgb(255,225,101);
-    transition: 1s;
-}
-.w-10{
-    width: 10rem;
-    height: 10rem;
-}
-.ml{
-    margin-left: 17rem;
-}
-
-@media (max-width:600px) {
-    .weather #myTab{
-        height: fit-content;
-    }
-    .weather #myTab li{
-        width: 100%;
-    }
-   .weather #myTab li a{
+  }
+  .weather #myTab li a {
     font-size: 1rem;
     height: 3rem;
     padding-top: 0.8rem;
-   }
-   .weather{
+  }
+  .weather {
     padding: 10px !important;
-   }
-   .cards{
+  }
+  .cards {
     flex-direction: column;
-   }
-   .cards .card{
+  }
+  .cards .card {
     margin: 0;
     margin-bottom: 1rem;
-   }
-   .c2 .card{
+  }
+  .c2 .card {
     margin: 0 !important;
-   }
-   .social ul{
+  }
+  #find6 {
+    margin-bottom: 2rem;
+  }
+  .copyright1 {
+    margin-left: 10px;
+  }
+  .social ul {
     flex-direction: row;
     flex-wrap: wrap !important;
     width: 35rem;
-   }
-   .social ul li{
+  }
+  .social ul li {
     margin-bottom: 1rem;
     margin-left: 0.8rem;
     width: 3rem;
     height: 3rem;
-   }
-   .social ul li a{
+  }
+  .social ul li a {
     font-size: 1rem;
-   }
-   #myTabContent{
+  }
+  #myTabContent {
     padding: 1rem;
-   }
-   #myTabContent .col-md-3{
+    margin-right: -3rem;
+  }
+  #myTabContent .col-md-3 {
     margin-left: 1rem !important;
     margin-bottom: 1rem;
-   }
-   .hotel .d-flex{
+  }
+  .hotel .d-flex {
     flex-direction: column;
-   }
-   #pool{
+  }
+  #pool {
     padding-top: 10rem;
-   }
-   #pool div{
+  }
+  #pool div {
     position: relative;
     font-size: 10px;
     width: 100%;
     height: 5rem;
-   }
-   #pool h5{
+  }
+  #pool h5 {
     font-size: 12px;
-   }
-   #massage{
+  }
+  #massage {
     padding-top: 10rem;
-   }
-   #massage div{
+  }
+  #massage div {
     position: relative;
     font-size: 10px;
     width: 100%;
     height: 5rem;
-   }
-   #massage h5{
+  }
+  #massage h5 {
     font-size: 12px;
-   }
-   #fitness{
+  }
+  #fitness {
     padding-top: 10rem;
-   }
-   #fitness div{
+  }
+  #fitness div {
     position: relative;
     font-size: 10px;
     width: 100%;
     height: 5rem;
-   }
-   #fitness h5{
+  }
+  #fitness h5 {
     font-size: 12px;
-   }
-   #evening{
+  }
+  #work1 {
+    margin-left: auto;
+  }
+  #work2 {
+    margin-left: auto;
+  }
+  #work3 {
+    margin-left: 60px;
+  }
+  #evening {
     padding-top: 10rem;
-   }
-   #evening div{
+  }
+  #evening div {
     position: relative;
     font-size: 10px;
     width: 100%;
     height: 5rem;
-   }
-   #evening h5{
+  }
+  #evening h5 {
     font-size: 12px;
-   }
-   .ml{
-    margin-left: 0;
-   }
-   
+  }
 }
-
-
-
+@media (max-width: 1440px) {
+  #find6 {
+    margin-left: -1.5rem;
+  }
+  #myTabContent {
+    width: fit-content;
+    margin-left: -1rem;
+  }
+  #social2 {
+    width: auto;
+  }
+  #find2 {
+    font-size: large;
+  }
+  #find3 {
+    margin-left: -0.5rem;
+    font-size: large;
+  }
+  #find4 {
+    margin-left: -0.5rem;
+    font-size: 17px;
+  }
+}
