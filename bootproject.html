@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./bootproject.css" />
+    <link rel="stylesheet" href="./FONTA/css/all.css" />
+  </head>
+
+  <body>
+    <div class="contain" id="top">
+      <div class="top row mb-5">
+        <div class="col-md-5 pl-5" id="dark">
+          <img src="./images/logo.png" alt="" class="my-5" />
+          <h3 class="text-white my-5">Choose Your Direction:</h3>
+          <ul class="pl-0 col-md-12 contact">
+            <li class="mb-3 wid-20 py-4">
+              <a href="#" class="pl-2 py-4">
+                <span class="mr-5"> FIND US ON FACEBOOK</span>
+                <span class="py-3 px-0 ml-2" id="icon">
+                  <i class="fa-brands fa-facebook-f px-4"></i> </span
+              ></a>
+            </li>
+            <li class="mb-3 wid-20 py-4">
+              <a href="#" class="pl-2 py-4">
+                <span class="mr-5">OUR YOUTUBE CHANNEL </span>
+                <span class="py-3 ml-2 px-0 tc" id="icon">
+                  <i
+                    class="fa-brands fa-youtube px-3 pl-2"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+              </a>
+            </li>
+            <li class="wid-20 py-4">
+              <a href="#" class="pl-2 py-4">
+                <span class="mr-5">FOLLOW OUR INSTAGRAM </span>
+                <span class="py-3 px-0" id="icon">
+                  <i class="fa-brands fa-instagram px-4"></i
+                ></span>
+              </a>
+            </li>
+          </ul>
+          <button class="btn btn-warning p-4">
+            <i class="fa fa-phone" aria-hidden="true"></i> CONTACT US NOW
+          </button>
+        </div>
+        <div class="col-md-5 mt-5 my-auto mx-auto">
+          <div class="card">
+            <div class="card-head">
+              <h4 class="ml-5 mt-3" id="card-head">
+                Check availability for direction:
+              </h4>
+            </div>
+            <div class="mx-auto"></div>
+            <div class="card-body">
+              <form action="" class="p-4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="form">FROM:</label>
+                    <br />
+                    <select name="from" id="from" class="bg-light p-2 mb-4">
+                      <option value="placeholder">Select a location...</option>
+                      <option value="cambodia">Cambodi</option>
+                      <option value="hongkong">Hong Kong</option>
+                      <option value="india">India</option>
+                      <option value="japan">Japan</option>
+                      <option value="korea">Korea</option>
+                      <option value="laos">Laos</option>
+                      <option value="myanmar">Mayanmar</option>
+                      <option value="singapore">Singapore</option>
+                      <option value="thailand">Thailand</option>
+                      <option value="vietnam">Vietnam</option>
+                    </select>
+                    <br />
+                    <label for="dept-date">DEPARTURE DATE:</label>
+                    <input
+                      type="date"
+                      name="dept-date"
+                      id="dept-date"
+                      class="bg-light p-2 mb-4"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="to">TO:</label>
+                    <br />
+                    <select name="to" id="to" class="bg-light p-2 mb-4">
+                      <option value="placeholder">Select a location...</option>
+                      <option value="cambodia">Cambodi</option>
+                      <option value="hongkong">Hong Kong</option>
+                      <option value="india">India</option>
+                      <option value="japan">Japan</option>
+                      <option value="korea">Korea</option>
+                      <option value="laos">Laos</option>
+                      <option value="myanmar">Mayanmar</option>
+                      <option value="singapore">Singapore</option>
+                      <option value="thailand">Thailand</option>
+                      <option value="vietnam">Vietnam</option>
+                    </select>
+                    <br />
+
+                    <label for="ret-date">RETURN DATE:</label>
+                    <input
+                      type="date"
+                      name="ret-date"
+                      id="ret-date"
+                      class="bg-light p-2 mb-4"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <label for="round">Round</label>
+                  <input type="radio" name="round" id="round" class="mr-5" />
+                  <label for="one-way">Oneway</label>
+                  <input type="radio" name="round" id="one-way" class="mr-5" />
+                  <button class="btn btn-warning align-right">
+                    Order Ticket Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-5 weather text-center">
+        <h3 class="title mb-5 text-center">
+          CHECK WEATHER FOR THE NEXT 5 DAYS
+        </h3>
+
+        <ul class="nav nav-tabs bg-dark" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-white"
+              id="monday-tab"
+              data-toggle="tab"
+              href="#monday"
+              role="tab"
+              aria-controls="monday"
+              aria-selected="true"
+              >MONDAY</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              id="tuesday-tab"
+              data-toggle="tab"
+              href="#tuesday"
+              role="tab"
+              aria-controls="tuesday"
+              aria-selected="false"
+              >TUESDAY</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              id="wednesday-tab"
+              data-toggle="tab"
+              href="#wednesday"
+              role="tab"
+              aria-controls="wednesday"
+              aria-selected="false"
+              >WEDNESDAY</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              id="thursday-tab"
+              data-toggle="tab"
+              href="#thursday"
+              role="tab"
+              aria-controls="thursday"
+              aria-selected="false"
+              >THURSDAY</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              id="friday-tab"
+              data-toggle="tab"
+              href="#friday"
+              role="tab"
+              aria-controls="friday"
+              aria-selected="false"
+              >FRIDAY</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active pb-3"
+            id="monday"
+            role="tabpanel"
+            aria-labelledby="monday-tab"
+          >
+            <div class="row">
+              <div class="col-md-3 m-5 pb-4 px-3">
+                <div class="head">
+                  <p class="text-white my-5">Myanmar</p>
+                  <img src="./images/weather-icon-03.png" alt="" />
+
+                  <p class="mt-5 text-white">32 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>32 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">Thailand</p>
+                  <img src="./images/weather-icon-02.png" alt="" />
+
+                  <p class="mt-5 text-white">28 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>20 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">India</p>
+                  <img src="./images/weather-icon-01.png" alt="" />
+
+                  <p class="mt-5 text-white">33 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>33 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>29 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="tuesday"
+            role="tabpanel"
+            aria-labelledby="tuesday-tab"
+          >
+            <div class="row">
+              <div class="col-md-3 m-5 pb-4 px-3">
+                <div class="head">
+                  <p class="text-white my-5">Myanmar</p>
+                  <img src="./images/weather-icon-02.png" alt="" />
+
+                  <p class="mt-5 text-white">28 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>25 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>17 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">Thailand</p>
+                  <img src="./images/weather-icon-03.png" alt="" />
+
+                  <p class="mt-5 text-white">31 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>19 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">India</p>
+                  <img src="./images/weather-icon-01.png" alt="" />
+
+                  <p class="mt-5 text-white">26 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>19 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>20 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="wednesday"
+            role="tabpanel"
+            aria-labelledby="wednesday-tab"
+          >
+            <div class="row">
+              <div class="col-md-3 m-5 pb-4 px-3">
+                <div class="head">
+                  <p class="text-white my-5">Myanmar</p>
+                  <img src="./images/weather-icon-03.png" alt="" />
+
+                  <p class="mt-5 text-white">31 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>19 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">Thailand</p>
+                  <img src="./images/weather-icon-01.png" alt="" />
+
+                  <p class="mt-5 text-white">34 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>34 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>30 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>29 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">India</p>
+                  <img src="./images/weather-icon-02.png" alt="" />
+
+                  <p class="mt-5 text-white">28 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>25 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>17 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="thursday"
+            role="tabpanel"
+            aria-labelledby="thursday-tab"
+          >
+            <div class="row">
+              <div class="col-md-3 m-5 pb-4 px-3">
+                <div class="head">
+                  <p class="text-white my-5">Myanmar</p>
+                  <img src="./images/weather-icon-01.png" alt="" />
+
+                  <p class="mt-5 text-white">27 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>21 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">Thailand</p>
+                  <img src="./images/weather-icon-02.png" alt="" />
+
+                  <p class="mt-5 text-white">28 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>25 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>17 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">India</p>
+                  <img src="./images/weather-icon-03.png" alt="" />
+
+                  <p class="mt-5 text-white">31 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>19 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>18 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="friday"
+            role="tabpanel"
+            aria-labelledby="friday-tab"
+          >
+            <div class="row">
+              <div class="col-md-3 m-5 pb-4 px-3">
+                <div class="head">
+                  <p class="text-white my-5">Myanmar</p>
+                  <img src="./images/weather-icon-03.png" alt="" />
+
+                  <p class="mt-5 text-white">33 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>33 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>29 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>27 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">Thailand</p>
+                  <img src="./images/weather-icon-02.png" alt="" />
+
+                  <p class="mt-5 text-white">31 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>24 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>31 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>23 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 m-5 pb-4">
+                <div class="head">
+                  <p class="text-white my-5">India</p>
+                  <img src="./images/weather-icon-01.png" alt="" />
+
+                  <p class="mt-5 text-white">28 <sup>o</sup>C</p>
+                </div>
+                <div class="body mx-auto mt-5">
+                  <div
+                    class="bg-white d-flex justify-content-between p-2"
+                    id="temp"
+                  >
+                    <div>
+                      <p>6AM</p>
+                      <p>24 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12PM</p>
+                      <p>28 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>6PM</p>
+                      <p>26 <sup>o</sup></p>
+                    </div>
+                    <div>
+                      <p>12AM</p>
+                      <p>22 <sup>o</sup></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center d-flex justify-content-between cards text-white p-4"
+      >
+        <div class="card col-md-3">
+          <div class="card-head">
+            <i class="fas fa-toolbox"></i>
+            <h4>EASY TOOLPLATE</h4>
+          </div>
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            dolores earum, sint, officia quisquam culpa sed laudantium nesciunt
+            minus ratione neque. Deleniti
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <div class="card-head">
+            <i class="fas fa-lightbulb"></i>
+            <h4>UNIQUE IDEAS</h4>
+          </div>
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            cum itaque, voluptate velit numquam, doloremque aliquam quasi
+            suscipit perspiciatis repellat, corrupti
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <div class="card-head">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <h4>BEST SUPPORT</h4>
+          </div>
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eaque
+            inventore neque asperiores perspiciatis repudiandae atque ex omnis
+            tempore fugiat in ipsa incidunt, possimus
+          </div>
+        </div>
+      </div>
+      <div class="bg-light text-center hotel p-4 px-5">
+        <h4 class="mb-5">RECOMMENDED HOTEL FOR YOU</h4>
+        <div class="d-flex">
+          <ul class="nav nav-tabs col-md-4" id="myTab" role="tablist">
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link active text-white p-2"
+                id="living-tab"
+                data-toggle="tab"
+                href="#living"
+                role="tab"
+                aria-controls="living"
+                aria-selected="true"
+                >LIVING ROOM
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link text-white p-2"
+                id="suit-tab"
+                data-toggle="tab"
+                href="#suit"
+                role="tab"
+                aria-controls="suit"
+                aria-selected="false"
+                >SUIT ROOM
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link text-white p-2"
+                id="pool-tab"
+                data-toggle="tab"
+                href="#pool"
+                role="tab"
+                aria-controls="pool"
+                aria-selected="false"
+                >SWIMING POOL
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link text-white p-2"
+                id="massage-tab"
+                data-toggle="tab"
+                href="#massage"
+                role="tab"
+                aria-controls="massage"
+                aria-selected="true"
+                >MASSAGE SERVICE
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link text-white p-2"
+                id="fitness-tab"
+                data-toggle="tab"
+                href="#fitness"
+                role="tab"
+                aria-controls="fitness"
+                aria-selected="false"
+                >FITNESS LIFE
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+            <li class="nav-item mb-3">
+              <a
+                class="nav-link text-white p-2"
+                id="evening-tab"
+                data-toggle="tab"
+                href="#evening"
+                role="tab"
+                aria-controls="evening"
+                aria-selected="false"
+                >EVENING EVENT
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span
+              ></a>
+            </li>
+          </ul>
+          <div class="tab-content col-md-7" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="living"
+              role="tabpanel"
+              aria-labelledby="living-tab"
+            >
+              <video
+                src="https://youtu.be/YXgXw25E5RU"
+                width="100%"
+                height="100%"
+                controls
+              ></video>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="suit"
+              role="tabpanel"
+              aria-labelledby="suit-tab"
+            >
+              <div id="carouselId" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselId"
+                    data-slide-to="0"
+                    class="active text-right"
+                  ></li>
+                  <li
+                    data-target="#carouselId"
+                    data-slide-to="1"
+                    class="text-right"
+                  ></li>
+                  <li
+                    data-target="#carouselId"
+                    data-slide-to="2"
+                    class="text-right"
+                  ></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active mb-0" id="active">
+                    <div class="p-2">
+                      <h5>Clean and Relaxing Room</h5>
+                      <p>AURORA RESORT</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item second">
+                    <div class="p-3">
+                      <h5>Special Suite Room TX</h5>
+                      <p>KHAO YAI HOYEL</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item third">
+                    <div class="p-3">
+                      <h5>The Best Sitting</h5>
+                      <p>HOTEL GRAND</p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselId"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselId"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pool"
+              role="tabpanel"
+              aria-labelledby="pool-tab"
+            >
+              <div class="p-3">
+                <h5>Lovely View Swimming Pool For Special Guests</h5>
+                <p>VICTORIA RESORT AND SPA</p>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="massage"
+              role="tabpanel"
+              aria-labelledby="massage-tab"
+            >
+              <div class="p-3">
+                <h5>Perfect Place Foe Relaxation</h5>
+                <p>NAPALI BEACH</p>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="fitness"
+              role="tabpanel"
+              aria-labelledby="fitness-tab"
+            >
+              <div class="p-3">
+                <h5>Insane Street Workout</h5>
+                <p>HUA HIN BEACH</p>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="evening"
+              role="tabpanel"
+              aria-labelledby="evening-tab"
+            >
+              <div class="p-3">
+                <h5>Finest Winery Night</h5>
+                <p>QUEEN RESTAURANT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center places c2 p-2 pt-5">
+        <h4 class="pb-5">MOST VISITED PLACES</h4>
+        <div id="carouselIdd " class="carousel slide ml " data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+            <li
+              data-target="#carouselIdd"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselIdd" data-slide-to="1"></li>
+            <li data-target="#carouselIdd" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-01.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>River Views</h5>
+                    <p>New York</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-02.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>River Views</h5>
+                    <p>TOKYO</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-03.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>River Views</h5>
+                    <p>PARIS</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-04.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>River Views</h5>
+                    <p>HOLLYWOOD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-03.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>River Views</h5>
+                    <p>New York</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-02.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>TOKYO</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-04.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>PARIS</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-01.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>HOLLYWOOD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-02.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>New York</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-04.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>TOKYO</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-01.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>PARIS</p>
+                  </div>
+                </div>
+                <div class="card shadow bg-light col-md-2 p-0 ml-3">
+                  <div class="card-head">
+                    <img src="./images/place-01.jpg" alt="" />
+                  </div>
+                  <div class="card-body">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>HOLLYWOOD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <a
+            class="carousel-control-prev"
+            href="#carouselIdd"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a> -->
+          <a
+            class="carousel-control-next"
+            href="#carouselIdd"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <footer class="text-center py-5 mt-5 text-white">
+        <a href="bootproject.html#top" class="btn btn-warning mb-5"
+          >Back to top</a
+        >
+        <div class="social">
+          <ul class="d-flex mx-auto">
+            <li>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook-f text-white mt-md-4"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-twitter text-white mt-md-4"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-linkedin text-white mt-md-4"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-wifi text-white mt-md-4"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-behance text-white mt-md-4"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p>
+            Copyright © suyash
+            I Design: <a href="#" class="text-warning">suyash</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./bootstrap/js/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
